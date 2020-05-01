@@ -1,0 +1,35 @@
+{
+  "name": "glitchjs",
+  "version": "1.0.0",
+  "description": "glitch-art library for amazing website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "watch": "gulp watch",
+    "sass": "gulp styles",
+    "js": "gulp scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilibetqq/glithjs.git"
+  },
+  "author": "statkr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilibetqq/glithjs/issues"
+  },
+  "homepage": "https://github.com/lilibetqq/glithjs#readme",
+  "dependencies": {
+    "del": "^2.0.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-watch": "^5.0.1"
+  }
+}
