@@ -1,0 +1,37 @@
+@import 'constant';
+@import 'keyframes';
+
+.glitchTextNoise{
+  color:white;
+  font-size:100px;
+  position:relative;
+  width: $size;
+  margin:0 auto;
+}
+
+
+.glitchTextNoise:before{
+  content:attr(data-sample);
+  position:absolute;
+  left:-2px;
+  text-shadow:1px 0 blue;
+  top:0;
+  color:white;
+  background:$body_background;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation: glitchTextNoise_before 3s infinite linear alternate-reverse;
+}
+
+.glitchTextNoise:after{
+  content:attr(data-sample);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 red;
+  top:0;
+  color:white;
+  background:$body_background;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation: glitchTextNoise_after 2s infinite linear alternate-reverse;
+}

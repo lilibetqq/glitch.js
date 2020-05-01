@@ -1,20 +1,16 @@
 'use strict';
 
 var gulp = require('gulp'),
-  del = require('del'),
-  concat = require('gulp-concat'),
-  rename = require('gulp-rename'),
-  uglify = require('gulp-uglify'),
-  uglifycss = require('gulp-uglifycss'),
-  sass = require('gulp-sass'),
-  csso = require('gulp-csso'),
-  watch = require('gulp-watch'),
-  sourcemaps = require('gulp-sourcemaps'),
-  livereload = require('gulp-livereload');
-
-
-
-
+    del = require('del'),
+    concat = require('gulp-concat'),
+    rename = require('gulp-rename'),
+    uglify = require('gulp-uglify'),
+    uglifycss = require('gulp-uglifycss'),
+    sass = require('gulp-sass'),
+    csso = require('gulp-csso'),
+    watch = require('gulp-watch'),
+    sourcemaps = require('gulp-sourcemaps'),
+    livereload = require('gulp-livereload');
 
 gulp.task('styles', function() {
   return gulp.src('src/scss/*.scss')
@@ -35,7 +31,7 @@ gulp.task('styles-optional', function() {
     .pipe(sass({
       outputStyle: 'expanded'
     }).on('error', sass.logError))
-    .pipe(rename("theme.css"))
+    .pipe(rename("styles.css"))
     .pipe(uglifycss({
       "maxLineLen": 80,
       "uglyComments": true
@@ -51,7 +47,7 @@ gulp.task('scripts', function() {
       largeFile: true
     }))
     .pipe(uglify())
-    .pipe(concat('theme.min.js'))
+    .pipe(concat('styles.min.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist/js'));
 });

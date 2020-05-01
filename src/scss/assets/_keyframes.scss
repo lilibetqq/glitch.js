@@ -1,0 +1,17 @@
+@import 'constant';
+
+@keyframes glitchTextNoise_before{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+@keyframes glitchTextNoise_after{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
