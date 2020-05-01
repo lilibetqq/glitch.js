@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lilibetqq/glithjs.git"
+    "url": "git+https://github.com/lilibetqq/glitch.js.git"
   },
   "author": "statkr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lilibetqq/glithjs/issues"
+    "url": "https://github.com/lilibetqq/glitch.js/issues"
   },
-  "homepage": "https://github.com/lilibetqq/glithjs#readme",
+  "homepage": "https://github.com/lilibetqq/glitch.js#readme",
   "dependencies": {
     "del": "^2.0.1",
     "gulp": "^4.0.2",
