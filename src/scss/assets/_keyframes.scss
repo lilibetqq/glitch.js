@@ -15,3 +15,11 @@
     }
   }
 }
+
+@keyframes glitchBackgroundNoise{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      background-position: random(1000)+px random(1000)+px;
+    }
+  }
+}
