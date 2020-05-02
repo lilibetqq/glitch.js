@@ -1,38 +1,56 @@
 @import '../assets/constant';
 @import '../assets/keyframes';
 
-.glitchTextNoise{
-  color:white;
-  font-size:100px;
-  position:relative;
-  width: $size;
-  margin:0 auto;
-      text-align: left;
-}
 
 
-.glitchTextNoise:before{
-  content:attr(data-sample);
-  position:absolute;
-  left:-2px;
-  text-shadow:1px 0 blue;
-  top:0;
-  color:white;
-  // background:$body_background;
-  overflow:hidden;
-  clip:rect(0,900px,0,0);
-  animation: glitchTextNoise_before 3s infinite linear alternate-reverse;
-}
+.glitch.text.twitch-text {
+  position: relative;
+  color: white;
+  mix-blend-mode: lighten;
+  &.styled{
+    margin: auto;
+    font-size: 120px;
+    text-transform: uppercase;
+  }
+  &:before,
+  &:after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      width: 100%;
+      background: black;
+      clip: rect(0, 0, 0, 0);
+  }
 
-.glitchTextNoise:after{
-  content:attr(data-sample);
-  position:absolute;
-  left:2px;
-  text-shadow:-1px 0 red;
-  top:0;
-  color:white;
-  // background:$body_background;
-  overflow:hidden;
-  clip:rect(0,900px,0,0);
-  animation: glitchTextNoise_after 2s infinite linear alternate-reverse;
+  &:before {
+      left: -1px;
+      text-shadow: 1px 0 rgba(red,0.7);
+  }
+
+  &:after {
+      left: 1px;
+      text-shadow: -1px 0 rgba(blue,0.7);
+  }
+  &:not(.hover) {
+    &:before {
+      text-shadow: 4px 0 rgba(red,0.7);
+      animation: glitchTextNoise_before 0.8s infinite ease-in-out alternate-reverse;
+    }
+    &:after {
+      text-shadow: -5px 0 rgba(blue,0.7);
+      animation: glitchTextNoise_after 0.8s infinite ease-in-out alternate-reverse;
+    }
+  }
+  &.hover{
+    &:hover {
+      &:before {
+        text-shadow: 4px 0 rgba(red,0.7);
+        animation: glitchTextNoise_before 0.8s infinite ease-in-out alternate-reverse;
+      }
+      &:after {
+        text-shadow: -5px 0 rgba(blue,0.7);
+        animation: glitchTextNoise_after 0.8s infinite ease-in-out alternate-reverse;
+      }
+    }
+  }
 }

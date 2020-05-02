@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     del = require('del'),
     concat = require('gulp-concat'),
     rename = require('gulp-rename'),
-    uglify = require('gulp-uglify'),
+    terser = require('gulp-terser'),
     uglifycss = require('gulp-uglifycss'),
     sass = require('gulp-sass'),
     csso = require('gulp-csso'),
@@ -46,7 +46,7 @@ gulp.task('scripts', function() {
     .pipe(sourcemaps.init({
       largeFile: true
     }))
-    .pipe(uglify())
+    .pipe(terser())
     .pipe(concat('styles.min.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist/js'));

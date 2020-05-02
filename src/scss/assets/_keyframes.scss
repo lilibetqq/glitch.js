@@ -1,25 +1,25 @@
 @import 'constant';
 
-@keyframes glitchTextNoise_before{
-  @for $i from 0 through $count{
-    #{percentage($i*(1/$count))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
-    }
-  }
-}
-
-@keyframes glitchTextNoise_after{
-  @for $i from 0 through $count{
-    #{percentage($i*(1/$count))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
-    }
-  }
-}
-
 @keyframes glitchBackgroundNoise{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
       background-position: random(1000)+px random(1000)+px;
     }
   }
+}
+
+@keyframes glitchTextNoise_before {
+  0% { clip: rect(36px, 9999px, 9px, 0) }
+  25% { clip: rect(25px, 9999px, 99px, 0) }
+  50% { clip: rect(50px, 9999px, 102px, 0) }
+  75% { clip: rect(30px, 9999px, 92px, 0) }
+  100% { clip: rect(91px, 9999px, 98px, 0) }
+}
+
+@keyframes glitchTextNoise_after {
+  0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
+  25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
+  50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
+  75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
+  100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
 }
