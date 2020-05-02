@@ -1,2 +1,2 @@
-# glithjs
-css и js glitch-art эффекты для сайта
+# glitch.js
+glitch-art library for amazing website
