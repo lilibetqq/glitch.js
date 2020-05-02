@@ -1,2 +1,3 @@
 # glitch.js
-glitch-art library for amazing website
+
+Библотека для интеграции glitch эффектов изображений и текста на сайте.
