@@ -1,49 +1,49 @@
-@keyframes glitchTextNoise_before{0%{clip:rect(64px,9999px,73px,0)}
-5%{clip:rect(16px,9999px,61px,0)}10%{clip:rect(68px,9999px,3px,0)}15%{clip:rect(69px,9999px,35px,0)}
-20%{clip:rect(28px,9999px,88px,0)}25%{clip:rect(35px,9999px,38px,0)}30%{clip:rect(86px,9999px,78px,0)}
-35%{clip:rect(83px,9999px,7px,0)}40%{clip:rect(39px,9999px,69px,0)}45%{clip:rect(12px,9999px,2px,0)}
-50%{clip:rect(61px,9999px,78px,0)}55%{clip:rect(92px,9999px,24px,0)}60%{clip:rect(35px,9999px,71px,0)}
-65%{clip:rect(75px,9999px,96px,0)}70%{clip:rect(73px,9999px,78px,0)}75%{clip:rect(82px,9999px,19px,0)}
-80%{clip:rect(79px,9999px,24px,0)}85%{clip:rect(24px,9999px,28px,0)}90%{clip:rect(32px,9999px,32px,0)}
-95%{clip:rect(17px,9999px,62px,0)}100%{clip:rect(51px,9999px,6px,0)}}@keyframes glitchTextNoise_after{0{clip:rect(64px,9999px,1px,0)}
-5%{clip:rect(44px,9999px,32px,0)}10%{clip:rect(95px,9999px,87px,0)}15%{clip:rect(61px,9999px,16px,0)}
-20%{clip:rect(46px,9999px,99px,0)}25%{clip:rect(12px,9999px,20px,0)}30%{clip:rect(27px,9999px,96px,0)}
-35%{clip:rect(17px,9999px,8px,0)}40%{clip:rect(18px,9999px,33px,0)}45%{clip:rect(75px,9999px,44px,0)}
-50%{clip:rect(10px,9999px,13px,0)}55%{clip:rect(91px,9999px,81px,0)}60%{clip:rect(48px,9999px,71px,0)}
-65%{clip:rect(20px,9999px,43px,0)}70%{clip:rect(65px,9999px,70px,0)}75%{clip:rect(59px,9999px,68px,0)}
-80%{clip:rect(73px,9999px,69px,0)}85%{clip:rect(62px,9999px,99px,0)}90%{clip:rect(19px,9999px,61px,0)}
-95%{clip:rect(99px,9999px,26px,0)}100%{clip:rect(81px,9999px,74px,0)}}@keyframes glitchBackgroundNoise{0%{background-position:116px 629px}
-5%{background-position:609px 324px}10%{background-position:988px 529px}15%{background-position:257px 269px}
-20%{background-position:698px 473px}25%{background-position:618px 149px}30%{background-position:846px 939px}
-35%{background-position:778px 379px}40%{background-position:751px 219px}45%{background-position:423px 18px}
-50%{background-position:683px 147px}55%{background-position:63px 558px}60%{background-position:965px 596px}
-65%{background-position:213px 295px}70%{background-position:482px 247px}75%{background-position:214px 140px}
-80%{background-position:684px 401px}85%{background-position:527px 683px}90%{background-position:487px 630px}
-95%{background-position:825px 989px}100%{background-position:630px 984px}}.glitchTextNoise{color:white;font-size:100px;position:relative;width:100%;margin:0 auto;text-align:left}
+@keyframes glitchTextNoise_before{0%{clip:rect(91px,9999px,4px,0)}
+5%{clip:rect(4px,9999px,81px,0)}10%{clip:rect(89px,9999px,30px,0)}15%{clip:rect(2px,9999px,18px,0)}
+20%{clip:rect(7px,9999px,13px,0)}25%{clip:rect(28px,9999px,73px,0)}30%{clip:rect(71px,9999px,85px,0)}
+35%{clip:rect(82px,9999px,40px,0)}40%{clip:rect(76px,9999px,41px,0)}45%{clip:rect(44px,9999px,60px,0)}
+50%{clip:rect(68px,9999px,35px,0)}55%{clip:rect(39px,9999px,25px,0)}60%{clip:rect(12px,9999px,18px,0)}
+65%{clip:rect(3px,9999px,53px,0)}70%{clip:rect(95px,9999px,41px,0)}75%{clip:rect(4px,9999px,62px,0)}
+80%{clip:rect(89px,9999px,47px,0)}85%{clip:rect(73px,9999px,67px,0)}90%{clip:rect(83px,9999px,17px,0)}
+95%{clip:rect(57px,9999px,100px,0)}100%{clip:rect(4px,9999px,86px,0)}}@keyframes glitchTextNoise_after{0{clip:rect(5px,9999px,27px,0)}
+5%{clip:rect(68px,9999px,66px,0)}10%{clip:rect(20px,9999px,47px,0)}15%{clip:rect(5px,9999px,89px,0)}
+20%{clip:rect(2px,9999px,13px,0)}25%{clip:rect(72px,9999px,52px,0)}30%{clip:rect(22px,9999px,89px,0)}
+35%{clip:rect(76px,9999px,12px,0)}40%{clip:rect(5px,9999px,45px,0)}45%{clip:rect(83px,9999px,71px,0)}
+50%{clip:rect(15px,9999px,47px,0)}55%{clip:rect(74px,9999px,82px,0)}60%{clip:rect(65px,9999px,23px,0)}
+65%{clip:rect(74px,9999px,23px,0)}70%{clip:rect(96px,9999px,57px,0)}75%{clip:rect(49px,9999px,13px,0)}
+80%{clip:rect(55px,9999px,42px,0)}85%{clip:rect(79px,9999px,61px,0)}90%{clip:rect(28px,9999px,43px,0)}
+95%{clip:rect(91px,9999px,56px,0)}100%{clip:rect(98px,9999px,29px,0)}}@keyframes glitchBackgroundNoise{0%{background-position:923px 678px}
+5%{background-position:712px 420px}10%{background-position:715px 591px}15%{background-position:719px 119px}
+20%{background-position:249px 712px}25%{background-position:480px 357px}30%{background-position:780px 312px}
+35%{background-position:763px 721px}40%{background-position:177px 643px}45%{background-position:270px 415px}
+50%{background-position:337px 225px}55%{background-position:554px 333px}60%{background-position:569px 13px}
+65%{background-position:148px 421px}70%{background-position:540px 904px}75%{background-position:505px 600px}
+80%{background-position:989px 10px}85%{background-position:313px 659px}90%{background-position:104px 289px}
+95%{background-position:138px 589px}100%{background-position:632px 836px}}.glitchTextNoise{color:white;font-size:100px;position:relative;width:100%;margin:0 auto;text-align:left}
 .glitchTextNoise:before{content:attr(data-sample);position:absolute;left:-2px;text-shadow:1px 0 blue;top:0;color:white;overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoise_before 3s infinite linear alternate-reverse}
 .glitchTextNoise:after{content:attr(data-sample);position:absolute;left:2px;text-shadow:-1px 0 red;top:0;color:white;overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoise_after 2s infinite linear alternate-reverse}
-@keyframes glitchTextNoise_before{0%{clip:rect(25px,9999px,23px,0)}
-5%{clip:rect(76px,9999px,14px,0)}10%{clip:rect(55px,9999px,99px,0)}15%{clip:rect(29px,9999px,19px,0)}
-20%{clip:rect(97px,9999px,14px,0)}25%{clip:rect(37px,9999px,100px,0)}30%{clip:rect(4px,9999px,41px,0)}
-35%{clip:rect(90px,9999px,49px,0)}40%{clip:rect(87px,9999px,16px,0)}45%{clip:rect(66px,9999px,76px,0)}
-50%{clip:rect(84px,9999px,33px,0)}55%{clip:rect(43px,9999px,5px,0)}60%{clip:rect(38px,9999px,57px,0)}
-65%{clip:rect(10px,9999px,70px,0)}70%{clip:rect(94px,9999px,100px,0)}75%{clip:rect(61px,9999px,75px,0)}
-80%{clip:rect(64px,9999px,43px,0)}85%{clip:rect(19px,9999px,66px,0)}90%{clip:rect(11px,9999px,89px,0)}
-95%{clip:rect(61px,9999px,10px,0)}100%{clip:rect(4px,9999px,43px,0)}}@keyframes glitchTextNoise_after{0{clip:rect(65px,9999px,15px,0)}
-5%{clip:rect(67px,9999px,34px,0)}10%{clip:rect(90px,9999px,4px,0)}15%{clip:rect(65px,9999px,76px,0)}
-20%{clip:rect(84px,9999px,34px,0)}25%{clip:rect(8px,9999px,24px,0)}30%{clip:rect(3px,9999px,9px,0)}
-35%{clip:rect(99px,9999px,50px,0)}40%{clip:rect(63px,9999px,1px,0)}45%{clip:rect(52px,9999px,92px,0)}
-50%{clip:rect(55px,9999px,96px,0)}55%{clip:rect(78px,9999px,16px,0)}60%{clip:rect(37px,9999px,16px,0)}
-65%{clip:rect(84px,9999px,38px,0)}70%{clip:rect(3px,9999px,20px,0)}75%{clip:rect(19px,9999px,31px,0)}
-80%{clip:rect(98px,9999px,94px,0)}85%{clip:rect(60px,9999px,10px,0)}90%{clip:rect(41px,9999px,1px,0)}
-95%{clip:rect(13px,9999px,95px,0)}100%{clip:rect(47px,9999px,56px,0)}}@keyframes glitchBackgroundNoise{0%{background-position:343px 425px}
-5%{background-position:432px 187px}10%{background-position:212px 131px}15%{background-position:299px 707px}
-20%{background-position:346px 632px}25%{background-position:993px 622px}30%{background-position:302px 873px}
-35%{background-position:527px 536px}40%{background-position:360px 123px}45%{background-position:622px 246px}
-50%{background-position:372px 947px}55%{background-position:892px 281px}60%{background-position:650px 978px}
-65%{background-position:968px 317px}70%{background-position:296px 98px}75%{background-position:36px 711px}
-80%{background-position:57px 247px}85%{background-position:472px 221px}90%{background-position:363px 288px}
-95%{background-position:637px 503px}100%{background-position:552px 402px}}.main-content{position:relative;display:flex;align-items:center;justify-content:center;flex-flow:column;height:100vh;background:#673ab7;color:#fff;text-align:center}
+@keyframes glitchTextNoise_before{0%{clip:rect(73px,9999px,53px,0)}
+5%{clip:rect(48px,9999px,41px,0)}10%{clip:rect(9px,9999px,73px,0)}15%{clip:rect(35px,9999px,27px,0)}
+20%{clip:rect(35px,9999px,81px,0)}25%{clip:rect(61px,9999px,100px,0)}30%{clip:rect(39px,9999px,26px,0)}
+35%{clip:rect(74px,9999px,49px,0)}40%{clip:rect(60px,9999px,76px,0)}45%{clip:rect(37px,9999px,67px,0)}
+50%{clip:rect(15px,9999px,72px,0)}55%{clip:rect(64px,9999px,45px,0)}60%{clip:rect(65px,9999px,81px,0)}
+65%{clip:rect(42px,9999px,62px,0)}70%{clip:rect(50px,9999px,56px,0)}75%{clip:rect(71px,9999px,7px,0)}
+80%{clip:rect(56px,9999px,20px,0)}85%{clip:rect(73px,9999px,2px,0)}90%{clip:rect(20px,9999px,82px,0)}
+95%{clip:rect(31px,9999px,68px,0)}100%{clip:rect(77px,9999px,93px,0)}}@keyframes glitchTextNoise_after{0{clip:rect(61px,9999px,9px,0)}
+5%{clip:rect(51px,9999px,71px,0)}10%{clip:rect(32px,9999px,17px,0)}15%{clip:rect(26px,9999px,89px,0)}
+20%{clip:rect(84px,9999px,87px,0)}25%{clip:rect(90px,9999px,41px,0)}30%{clip:rect(57px,9999px,43px,0)}
+35%{clip:rect(80px,9999px,56px,0)}40%{clip:rect(78px,9999px,64px,0)}45%{clip:rect(78px,9999px,50px,0)}
+50%{clip:rect(41px,9999px,90px,0)}55%{clip:rect(23px,9999px,81px,0)}60%{clip:rect(34px,9999px,61px,0)}
+65%{clip:rect(16px,9999px,69px,0)}70%{clip:rect(49px,9999px,1px,0)}75%{clip:rect(88px,9999px,72px,0)}
+80%{clip:rect(78px,9999px,35px,0)}85%{clip:rect(27px,9999px,23px,0)}90%{clip:rect(13px,9999px,36px,0)}
+95%{clip:rect(17px,9999px,83px,0)}100%{clip:rect(21px,9999px,93px,0)}}@keyframes glitchBackgroundNoise{0%{background-position:79px 724px}
+5%{background-position:847px 948px}10%{background-position:7px 548px}15%{background-position:236px 362px}
+20%{background-position:467px 535px}25%{background-position:430px 49px}30%{background-position:864px 778px}
+35%{background-position:293px 418px}40%{background-position:983px 836px}45%{background-position:63px 874px}
+50%{background-position:35px 421px}55%{background-position:104px 481px}60%{background-position:986px 984px}
+65%{background-position:656px 90px}70%{background-position:676px 11px}75%{background-position:296px 898px}
+80%{background-position:915px 792px}85%{background-position:819px 936px}90%{background-position:929px 443px}
+95%{background-position:656px 160px}100%{background-position:598px 938px}}.main-content{position:relative;display:flex;align-items:center;justify-content:center;flex-flow:column;height:100vh;background:#673ab7;color:#fff;text-align:center}
 .main-content::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:url("../../src/img/img-noise.png");animation:1s infinite glitchBackgroundNoise;pointer-events:none}
 body{background:black}
 /*# sourceMappingURL=styles.css.map */
