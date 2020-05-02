@@ -1,13 +1,13 @@
 @import '../assets/constant';
 @import '../assets/keyframes';
 
-.main-content {
+.glitch.back.noise {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    height: 100vh;
+    height: 200px;
     background: #673ab7;
     color: #fff;
     text-align: center;

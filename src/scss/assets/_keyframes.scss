@@ -8,6 +8,21 @@
   }
 }
 
+@keyframes glitchTextNoiseMono_before{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+@keyframes glitchTextNoiseMono_after{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
 @keyframes glitchTextNoise_before {
   0% { clip: rect(36px, 9999px, 9px, 0) }
   25% { clip: rect(25px, 9999px, 99px, 0) }

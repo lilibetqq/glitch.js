@@ -1,0 +1,72 @@
+
+
+.glitch.text.twitch-mono-text{
+  &.styled{
+        color: white;
+        position: relative;
+        margin: 0 auto;
+        background: rgba(0,0,0,0.95);
+        letter-spacing: 1px;
+        margin: auto;
+        font-size: 120px;
+        text-transform: uppercase;
+
+  &:not(.hover) {
+  &:after{
+    content:attr(data-text);
+    position:absolute;
+    left:2px;
+    text-shadow:-1px 0 red;
+    top:0;
+    color:white;
+    background:black;
+    overflow:hidden;
+    clip:rect(0,900px,0,0);
+    animation:glitchTextNoiseMono_before 2s infinite linear alternate-reverse;
+  }
+  &:before{
+    content:attr(data-text);
+    position:absolute;
+    left:-2px;
+    text-shadow:1px 0 blue;
+    top:0;
+    color:white;
+    background:rgba(0,0,0,0.25);
+    overflow:hidden;
+    clip:rect(0,900px,0,0);
+    animation:glitchTextNoiseMono_after 2s infinite linear alternate-reverse;
+  }
+}
+
+&.hover{
+  &:hover {
+    &:after{
+      content:attr(data-text);
+      position:absolute;
+      left:2px;
+      text-shadow:-1px 0 red;
+      top:0;
+      color:white;
+      background:black;
+      overflow:hidden;
+      clip:rect(0,900px,0,0);
+      animation:glitchTextNoiseMono_before 2s infinite linear alternate-reverse;
+    }
+    &:before{
+      content:attr(data-text);
+      position:absolute;
+      left:-2px;
+      text-shadow:1px 0 blue;
+      top:0;
+      color:white;
+      background:rgba(0,0,0,0.25);
+      overflow:hidden;
+      clip:rect(0,900px,0,0);
+      animation:glitchTextNoiseMono_after 2s infinite linear alternate-reverse;
+    }
+  }
+}
+
+}
+
+}
