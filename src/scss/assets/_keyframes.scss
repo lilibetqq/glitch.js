@@ -184,16 +184,4 @@
   86%{ transform: rotateX(0deg) skewX(0deg); }
 }
 
-
-
-
-
-
-@keyframes fudge {
-  from {
-    transform: translate(0px, 0px);
-  }
-  to {
-    transform: translate(0px, 2%);
-  }
-}
+ 

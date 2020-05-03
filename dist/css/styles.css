@@ -1,54 +1,54 @@
-body{background:#3e3e3e}@keyframes glitchBackgroundNoise{0%{background-position:555px 638px}
-5%{background-position:289px 57px}10%{background-position:846px 765px}15%{background-position:31px 45px}
-20%{background-position:341px 655px}25%{background-position:424px 684px}30%{background-position:389px 559px}
-35%{background-position:192px 592px}40%{background-position:902px 920px}45%{background-position:636px 367px}
-50%{background-position:776px 890px}55%{background-position:786px 363px}60%{background-position:942px 285px}
-65%{background-position:770px 287px}70%{background-position:137px 670px}75%{background-position:559px 236px}
-80%{background-position:340px 226px}85%{background-position:565px 174px}90%{background-position:580px 499px}
-95%{background-position:775px 48px}100%{background-position:67px 953px}}@keyframes glitchTextNoiseMono_before_few{0{clip:rect(40px,9999px,90px,0)}
-5%{clip:rect(15px,9999px,100px,0)}10%{clip:rect(99px,9999px,10px,0)}15%{clip:rect(31px,9999px,61px,0)}
-20%{clip:rect(21px,9999px,30px,0)}25%{clip:rect(89px,9999px,77px,0)}30%{clip:rect(90px,9999px,23px,0)}
-35%{clip:rect(45px,9999px,13px,0)}40%{clip:rect(19px,9999px,19px,0)}45%{clip:rect(100px,9999px,33px,0)}
-50%{clip:rect(1px,9999px,82px,0)}55%{clip:rect(85px,9999px,85px,0)}60%{clip:rect(25px,9999px,81px,0)}
-65%{clip:rect(11px,9999px,87px,0)}70%{clip:rect(28px,9999px,70px,0)}75%{clip:rect(52px,9999px,42px,0)}
-80%{clip:rect(52px,9999px,91px,0)}85%{clip:rect(54px,9999px,82px,0)}90%{clip:rect(15px,9999px,71px,0)}
-95%{clip:rect(28px,9999px,72px,0)}100%{clip:rect(60px,9999px,57px,0)}}@keyframes glitchTextNoiseMono_after_few{0%{clip:rect(98px,9999px,47px,0)}
-5%{clip:rect(66px,9999px,81px,0)}10%{clip:rect(39px,9999px,26px,0)}15%{clip:rect(53px,9999px,79px,0)}
-20%{clip:rect(76px,9999px,88px,0)}25%{clip:rect(28px,9999px,92px,0)}30%{clip:rect(46px,9999px,38px,0)}
-35%{clip:rect(96px,9999px,95px,0)}40%{clip:rect(4px,9999px,43px,0)}45%{clip:rect(69px,9999px,67px,0)}
-50%{clip:rect(67px,9999px,18px,0)}55%{clip:rect(42px,9999px,72px,0)}60%{clip:rect(87px,9999px,22px,0)}
-65%{clip:rect(91px,9999px,85px,0)}70%{clip:rect(83px,9999px,88px,0)}75%{clip:rect(69px,9999px,43px,0)}
-80%{clip:rect(76px,9999px,26px,0)}85%{clip:rect(99px,9999px,71px,0)}90%{clip:rect(79px,9999px,27px,0)}
-95%{clip:rect(62px,9999px,2px,0)}100%{clip:rect(99px,9999px,72px,0)}}@keyframes glitchTextNoiseMono_before_medium{0{clip:rect(48px,9000px,144px,6px)}
-5%{clip:rect(60px,9000px,127px,10px)}10%{clip:rect(4px,9000px,15px,9px)}15%{clip:rect(43px,9000px,148px,8px)}
-20%{clip:rect(94px,9000px,66px,9px)}25%{clip:rect(99px,9000px,96px,6px)}30%{clip:rect(88px,9000px,2px,10px)}
-35%{clip:rect(62px,9000px,109px,7px)}40%{clip:rect(47px,9000px,62px,8px)}45%{clip:rect(24px,9000px,69px,7px)}
-50%{clip:rect(7px,9000px,32px,9px)}55%{clip:rect(1px,9000px,16px,3px)}60%{clip:rect(132px,9000px,122px,9px)}
-65%{clip:rect(94px,9000px,54px,9px)}70%{clip:rect(37px,9000px,126px,6px)}75%{clip:rect(124px,9000px,20px,3px)}
-80%{clip:rect(148px,9000px,20px,9px)}85%{clip:rect(10px,9000px,46px,9px)}90%{clip:rect(88px,9000px,133px,4px)}
-95%{clip:rect(25px,9000px,75px,2px)}100%{clip:rect(77px,9000px,68px,9px)}}@keyframes glitchTextNoiseMono_after_medium{0%{clip:rect(21px,9000px,29px,3px)}
-5%{clip:rect(22px,9000px,127px,1px)}10%{clip:rect(26px,9000px,64px,10px)}15%{clip:rect(36px,9000px,131px,9px)}
-20%{clip:rect(78px,9000px,60px,1px)}25%{clip:rect(128px,9000px,48px,4px)}30%{clip:rect(97px,9000px,117px,5px)}
-35%{clip:rect(123px,9000px,128px,5px)}40%{clip:rect(80px,9000px,6px,8px)}45%{clip:rect(101px,9000px,112px,7px)}
-50%{clip:rect(62px,9000px,57px,6px)}55%{clip:rect(75px,9000px,126px,8px)}60%{clip:rect(18px,9000px,88px,4px)}
-65%{clip:rect(98px,9000px,86px,1px)}70%{clip:rect(46px,9000px,126px,10px)}75%{clip:rect(45px,9000px,5px,7px)}
-80%{clip:rect(13px,9000px,60px,6px)}85%{clip:rect(79px,9000px,92px,5px)}90%{clip:rect(59px,9000px,11px,4px)}
-95%{clip:rect(114px,9000px,22px,5px)}100%{clip:rect(104px,9000px,7px,1px)}}@keyframes glitchTextNoiseMono_text_medium{84%{transform:rotateX(0) skewX(0)}
-85%{transform:rotateX(10deg) skewX(50deg)}86%{transform:rotateX(0) skewX(0)}}@keyframes glitchTextNoiseMono_before_hard{0%{clip:rect(43px,9000px,88px,3px)}
-5%{clip:rect(48px,9000px,83px,5px)}10%{clip:rect(79px,9000px,4px,3px)}15%{clip:rect(15px,9000px,142px,2px)}
-20%{clip:rect(69px,9000px,5px,5px)}25%{clip:rect(78px,9000px,34px,8px)}30%{clip:rect(84px,9000px,91px,5px)}
-35%{clip:rect(17px,9000px,138px,4px)}40%{clip:rect(44px,9000px,107px,8px)}45%{clip:rect(18px,9000px,71px,7px)}
-50%{clip:rect(21px,9000px,65px,5px)}55%{clip:rect(75px,9000px,146px,5px)}60%{clip:rect(76px,9000px,150px,6px)}
-65%{clip:rect(97px,9000px,94px,6px)}70%{clip:rect(39px,9000px,10px,8px)}75%{clip:rect(48px,9000px,132px,4px)}
-80%{clip:rect(59px,9000px,22px,4px)}85%{clip:rect(76px,9000px,121px,1px)}90%{clip:rect(73px,9000px,26px,1px)}
-95%{clip:rect(145px,9000px,48px,10px)}100%{clip:rect(32px,9000px,112px,5px)}}@keyframes glitchTextNoiseMono_after_hard{0{clip:rect(70px,9000px,34px,6px)}
-5%{clip:rect(139px,9000px,90px,6px)}10%{clip:rect(114px,9000px,79px,2px)}15%{clip:rect(43px,9000px,148px,8px)}
-20%{clip:rect(94px,9000px,32px,7px)}25%{clip:rect(116px,9000px,136px,5px)}30%{clip:rect(120px,9000px,91px,4px)}
-35%{clip:rect(41px,9000px,69px,5px)}40%{clip:rect(104px,9000px,38px,7px)}45%{clip:rect(132px,9000px,128px,10px)}
-50%{clip:rect(55px,9000px,68px,1px)}55%{clip:rect(149px,9000px,76px,10px)}60%{clip:rect(113px,9000px,9px,1px)}
-65%{clip:rect(5px,9000px,126px,10px)}70%{clip:rect(11px,9000px,97px,8px)}75%{clip:rect(34px,9000px,36px,1px)}
-80%{clip:rect(126px,9000px,113px,2px)}85%{clip:rect(88px,9000px,26px,6px)}90%{clip:rect(29px,9000px,18px,6px)}
-95%{clip:rect(127px,9000px,92px,5px)}100%{clip:rect(123px,9000px,19px,10px)}}@keyframes glitchTextNoiseMono_text_hard{32%{opacity:1}
+body{background:#3e3e3e}@keyframes glitchBackgroundNoise{0%{background-position:366px 630px}
+5%{background-position:110px 416px}10%{background-position:680px 470px}15%{background-position:808px 832px}
+20%{background-position:736px 698px}25%{background-position:691px 960px}30%{background-position:263px 971px}
+35%{background-position:923px 743px}40%{background-position:816px 104px}45%{background-position:952px 871px}
+50%{background-position:486px 338px}55%{background-position:835px 798px}60%{background-position:690px 661px}
+65%{background-position:720px 975px}70%{background-position:218px 512px}75%{background-position:1px 242px}
+80%{background-position:685px 168px}85%{background-position:27px 326px}90%{background-position:618px 416px}
+95%{background-position:857px 458px}100%{background-position:976px 763px}}@keyframes glitchTextNoiseMono_before_few{0{clip:rect(6px,9999px,31px,0)}
+5%{clip:rect(68px,9999px,10px,0)}10%{clip:rect(25px,9999px,1px,0)}15%{clip:rect(91px,9999px,74px,0)}
+20%{clip:rect(73px,9999px,22px,0)}25%{clip:rect(10px,9999px,10px,0)}30%{clip:rect(29px,9999px,29px,0)}
+35%{clip:rect(5px,9999px,84px,0)}40%{clip:rect(14px,9999px,7px,0)}45%{clip:rect(38px,9999px,39px,0)}
+50%{clip:rect(55px,9999px,43px,0)}55%{clip:rect(40px,9999px,85px,0)}60%{clip:rect(11px,9999px,65px,0)}
+65%{clip:rect(36px,9999px,41px,0)}70%{clip:rect(79px,9999px,23px,0)}75%{clip:rect(50px,9999px,95px,0)}
+80%{clip:rect(60px,9999px,13px,0)}85%{clip:rect(60px,9999px,56px,0)}90%{clip:rect(57px,9999px,2px,0)}
+95%{clip:rect(9px,9999px,11px,0)}100%{clip:rect(55px,9999px,2px,0)}}@keyframes glitchTextNoiseMono_after_few{0%{clip:rect(61px,9999px,78px,0)}
+5%{clip:rect(86px,9999px,88px,0)}10%{clip:rect(32px,9999px,21px,0)}15%{clip:rect(13px,9999px,49px,0)}
+20%{clip:rect(44px,9999px,96px,0)}25%{clip:rect(37px,9999px,58px,0)}30%{clip:rect(74px,9999px,67px,0)}
+35%{clip:rect(24px,9999px,72px,0)}40%{clip:rect(23px,9999px,71px,0)}45%{clip:rect(97px,9999px,13px,0)}
+50%{clip:rect(23px,9999px,48px,0)}55%{clip:rect(10px,9999px,15px,0)}60%{clip:rect(27px,9999px,16px,0)}
+65%{clip:rect(50px,9999px,26px,0)}70%{clip:rect(53px,9999px,19px,0)}75%{clip:rect(90px,9999px,41px,0)}
+80%{clip:rect(14px,9999px,51px,0)}85%{clip:rect(72px,9999px,25px,0)}90%{clip:rect(87px,9999px,36px,0)}
+95%{clip:rect(37px,9999px,60px,0)}100%{clip:rect(4px,9999px,84px,0)}}@keyframes glitchTextNoiseMono_before_medium{0{clip:rect(40px,9000px,80px,7px)}
+5%{clip:rect(131px,9000px,104px,6px)}10%{clip:rect(91px,9000px,74px,4px)}15%{clip:rect(100px,9000px,34px,2px)}
+20%{clip:rect(143px,9000px,130px,3px)}25%{clip:rect(29px,9000px,108px,8px)}30%{clip:rect(133px,9000px,98px,5px)}
+35%{clip:rect(64px,9000px,133px,7px)}40%{clip:rect(7px,9000px,108px,2px)}45%{clip:rect(109px,9000px,109px,3px)}
+50%{clip:rect(50px,9000px,30px,7px)}55%{clip:rect(142px,9000px,78px,8px)}60%{clip:rect(37px,9000px,41px,7px)}
+65%{clip:rect(142px,9000px,105px,7px)}70%{clip:rect(39px,9000px,80px,8px)}75%{clip:rect(93px,9000px,149px,4px)}
+80%{clip:rect(73px,9000px,108px,4px)}85%{clip:rect(22px,9000px,58px,6px)}90%{clip:rect(31px,9000px,23px,9px)}
+95%{clip:rect(2px,9000px,67px,3px)}100%{clip:rect(117px,9000px,140px,7px)}}@keyframes glitchTextNoiseMono_after_medium{0%{clip:rect(38px,9000px,2px,8px)}
+5%{clip:rect(48px,9000px,148px,2px)}10%{clip:rect(118px,9000px,99px,6px)}15%{clip:rect(18px,9000px,68px,7px)}
+20%{clip:rect(75px,9000px,50px,4px)}25%{clip:rect(80px,9000px,95px,1px)}30%{clip:rect(7px,9000px,55px,10px)}
+35%{clip:rect(9px,9000px,103px,9px)}40%{clip:rect(140px,9000px,50px,8px)}45%{clip:rect(135px,9000px,39px,4px)}
+50%{clip:rect(121px,9000px,82px,8px)}55%{clip:rect(141px,9000px,84px,5px)}60%{clip:rect(57px,9000px,78px,2px)}
+65%{clip:rect(17px,9000px,108px,6px)}70%{clip:rect(67px,9000px,123px,7px)}75%{clip:rect(38px,9000px,142px,8px)}
+80%{clip:rect(52px,9000px,17px,4px)}85%{clip:rect(109px,9000px,137px,3px)}90%{clip:rect(140px,9000px,99px,7px)}
+95%{clip:rect(30px,9000px,53px,10px)}100%{clip:rect(45px,9000px,5px,7px)}}@keyframes glitchTextNoiseMono_text_medium{84%{transform:rotateX(0) skewX(0)}
+85%{transform:rotateX(10deg) skewX(50deg)}86%{transform:rotateX(0) skewX(0)}}@keyframes glitchTextNoiseMono_before_hard{0%{clip:rect(66px,9000px,108px,3px)}
+5%{clip:rect(133px,9000px,39px,2px)}10%{clip:rect(41px,9000px,38px,9px)}15%{clip:rect(56px,9000px,114px,6px)}
+20%{clip:rect(141px,9000px,19px,2px)}25%{clip:rect(29px,9000px,82px,9px)}30%{clip:rect(74px,9000px,70px,7px)}
+35%{clip:rect(139px,9000px,61px,5px)}40%{clip:rect(119px,9000px,69px,5px)}45%{clip:rect(91px,9000px,28px,9px)}
+50%{clip:rect(31px,9000px,44px,3px)}55%{clip:rect(92px,9000px,107px,8px)}60%{clip:rect(27px,9000px,67px,8px)}
+65%{clip:rect(148px,9000px,130px,8px)}70%{clip:rect(33px,9000px,17px,2px)}75%{clip:rect(30px,9000px,71px,6px)}
+80%{clip:rect(91px,9000px,149px,3px)}85%{clip:rect(66px,9000px,136px,4px)}90%{clip:rect(32px,9000px,148px,2px)}
+95%{clip:rect(23px,9000px,75px,6px)}100%{clip:rect(106px,9000px,126px,10px)}}@keyframes glitchTextNoiseMono_after_hard{0{clip:rect(136px,9000px,117px,9px)}
+5%{clip:rect(9px,9000px,56px,9px)}10%{clip:rect(35px,9000px,30px,1px)}15%{clip:rect(23px,9000px,107px,8px)}
+20%{clip:rect(33px,9000px,18px,1px)}25%{clip:rect(62px,9000px,16px,5px)}30%{clip:rect(140px,9000px,5px,10px)}
+35%{clip:rect(119px,9000px,89px,3px)}40%{clip:rect(84px,9000px,94px,4px)}45%{clip:rect(75px,9000px,107px,10px)}
+50%{clip:rect(130px,9000px,3px,10px)}55%{clip:rect(64px,9000px,23px,6px)}60%{clip:rect(81px,9000px,144px,4px)}
+65%{clip:rect(100px,9000px,37px,8px)}70%{clip:rect(5px,9000px,148px,3px)}75%{clip:rect(83px,9000px,118px,5px)}
+80%{clip:rect(78px,9000px,4px,10px)}85%{clip:rect(8px,9000px,124px,8px)}90%{clip:rect(92px,9000px,86px,8px)}
+95%{clip:rect(30px,9000px,77px,2px)}100%{clip:rect(29px,9000px,148px,5px)}}@keyframes glitchTextNoiseMono_text_hard{32%{opacity:1}
 33%{opacity:0}34%{opacity:1}39%{opacity:1}40%{opacity:0}41%{opacity:1}46%{transform:rotateX(0) skewX(0)}
 47%{transform:rotateX(0) skewX(-90deg)}48%{transform:rotateX(0) skewX(0)}65%{opacity:1}
 66%{opacity:0}67%{opacity:1}84%{transform:rotateX(0) skewX(0)}85%{transform:rotateX(10deg) skewX(50deg)}
@@ -73,61 +73,59 @@ body{background:#3e3e3e}@keyframes glitchBackgroundNoise{0%{background-position:
 }@keyframes glitchTextNoise_text_hard{32%{opacity:1}33%{opacity:.5}35%{opacity:1}
 39%{opacity:1}40%{opacity:.2}41%{opacity:1}46%{transform:rotateX(0) skewX(0)}47%{transform:rotateX(0) skewX(-90deg)}
 48%{transform:rotateX(0) skewX(0)}65%{opacity:1}66%{opacity:.5}67%{opacity:1}84%{transform:rotateX(0) skewX(0)}
-85%{transform:rotateX(10deg) skewX(70deg)}86%{transform:rotateX(0) skewX(0)}}@keyframes fudge{from{transform:translate(0,0)}
-to{transform:translate(0,2%)}}.glitch.back.noise{position:relative;display:flex;align-items:center;justify-content:center;flex-flow:column;height:200px;background:#673ab7;color:#fff;text-align:center}
+85%{transform:rotateX(10deg) skewX(70deg)}86%{transform:rotateX(0) skewX(0)}}.glitch.back.noise{position:relative;display:flex;align-items:center;justify-content:center;flex-flow:column;height:200px;background:#673ab7;color:#fff;text-align:center}
 .glitch.back.noise::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:url("../../src/img/img-noise.png");animation:1s infinite glitchBackgroundNoise;pointer-events:none}
-.scanlines{overflow:hidden;mix-blend-mode:difference}.scanlines:before{content:"";position:absolute;width:100%;height:100%;top:0;left:0;background:repeating-linear-gradient(to bottom,transparent 0,rgba(255,255,255,0.05) .5%,transparent 1%);animation:fudge 7s ease-in-out alternate infinite}
-@keyframes glitchBackgroundNoise{0%{background-position:729px 886px}
-5%{background-position:885px 247px}10%{background-position:961px 721px}15%{background-position:439px 690px}
-20%{background-position:790px 85px}25%{background-position:828px 109px}30%{background-position:36px 14px}
-35%{background-position:510px 351px}40%{background-position:568px 256px}45%{background-position:566px 463px}
-50%{background-position:52px 100px}55%{background-position:574px 470px}60%{background-position:525px 311px}
-65%{background-position:689px 423px}70%{background-position:829px 382px}75%{background-position:30px 194px}
-80%{background-position:405px 818px}85%{background-position:459px 55px}90%{background-position:45px 518px}
-95%{background-position:956px 503px}100%{background-position:602px 223px}}@keyframes glitchTextNoiseMono_before_few{0{clip:rect(23px,9999px,94px,0)}
-5%{clip:rect(3px,9999px,17px,0)}10%{clip:rect(67px,9999px,35px,0)}15%{clip:rect(53px,9999px,38px,0)}
-20%{clip:rect(99px,9999px,76px,0)}25%{clip:rect(99px,9999px,37px,0)}30%{clip:rect(64px,9999px,55px,0)}
-35%{clip:rect(25px,9999px,20px,0)}40%{clip:rect(40px,9999px,2px,0)}45%{clip:rect(91px,9999px,76px,0)}
-50%{clip:rect(16px,9999px,20px,0)}55%{clip:rect(36px,9999px,60px,0)}60%{clip:rect(55px,9999px,33px,0)}
-65%{clip:rect(48px,9999px,74px,0)}70%{clip:rect(85px,9999px,85px,0)}75%{clip:rect(41px,9999px,28px,0)}
-80%{clip:rect(29px,9999px,59px,0)}85%{clip:rect(7px,9999px,80px,0)}90%{clip:rect(62px,9999px,83px,0)}
-95%{clip:rect(28px,9999px,72px,0)}100%{clip:rect(38px,9999px,5px,0)}}@keyframes glitchTextNoiseMono_after_few{0%{clip:rect(60px,9999px,58px,0)}
-5%{clip:rect(48px,9999px,76px,0)}10%{clip:rect(50px,9999px,96px,0)}15%{clip:rect(56px,9999px,33px,0)}
-20%{clip:rect(26px,9999px,14px,0)}25%{clip:rect(54px,9999px,50px,0)}30%{clip:rect(59px,9999px,33px,0)}
-35%{clip:rect(89px,9999px,44px,0)}40%{clip:rect(24px,9999px,3px,0)}45%{clip:rect(63px,9999px,15px,0)}
-50%{clip:rect(97px,9999px,85px,0)}55%{clip:rect(18px,9999px,73px,0)}60%{clip:rect(66px,9999px,45px,0)}
-65%{clip:rect(50px,9999px,20px,0)}70%{clip:rect(65px,9999px,82px,0)}75%{clip:rect(28px,9999px,10px,0)}
-80%{clip:rect(91px,9999px,58px,0)}85%{clip:rect(56px,9999px,10px,0)}90%{clip:rect(44px,9999px,13px,0)}
-95%{clip:rect(27px,9999px,64px,0)}100%{clip:rect(67px,9999px,71px,0)}}@keyframes glitchTextNoiseMono_before_medium{0{clip:rect(131px,9000px,106px,7px)}
-5%{clip:rect(148px,9000px,83px,10px)}10%{clip:rect(18px,9000px,122px,9px)}15%{clip:rect(113px,9000px,112px,1px)}
-20%{clip:rect(22px,9000px,111px,6px)}25%{clip:rect(138px,9000px,139px,9px)}30%{clip:rect(124px,9000px,4px,6px)}
-35%{clip:rect(143px,9000px,19px,3px)}40%{clip:rect(111px,9000px,74px,9px)}45%{clip:rect(112px,9000px,29px,8px)}
-50%{clip:rect(56px,9000px,20px,6px)}55%{clip:rect(61px,9000px,120px,5px)}60%{clip:rect(52px,9000px,145px,9px)}
-65%{clip:rect(111px,9000px,93px,5px)}70%{clip:rect(143px,9000px,89px,5px)}75%{clip:rect(131px,9000px,58px,1px)}
-80%{clip:rect(101px,9000px,133px,8px)}85%{clip:rect(139px,9000px,93px,3px)}90%{clip:rect(92px,9000px,65px,1px)}
-95%{clip:rect(40px,9000px,3px,4px)}100%{clip:rect(66px,9000px,109px,9px)}}@keyframes glitchTextNoiseMono_after_medium{0%{clip:rect(73px,9000px,99px,1px)}
-5%{clip:rect(150px,9000px,23px,8px)}10%{clip:rect(20px,9000px,8px,3px)}15%{clip:rect(102px,9000px,46px,3px)}
-20%{clip:rect(134px,9000px,70px,2px)}25%{clip:rect(87px,9000px,81px,5px)}30%{clip:rect(132px,9000px,9px,1px)}
-35%{clip:rect(123px,9000px,19px,1px)}40%{clip:rect(138px,9000px,65px,10px)}45%{clip:rect(129px,9000px,6px,6px)}
-50%{clip:rect(33px,9000px,46px,9px)}55%{clip:rect(56px,9000px,1px,7px)}60%{clip:rect(133px,9000px,42px,10px)}
-65%{clip:rect(127px,9000px,71px,8px)}70%{clip:rect(19px,9000px,30px,3px)}75%{clip:rect(42px,9000px,148px,7px)}
-80%{clip:rect(127px,9000px,101px,2px)}85%{clip:rect(146px,9000px,52px,8px)}90%{clip:rect(106px,9000px,91px,8px)}
-95%{clip:rect(23px,9000px,60px,7px)}100%{clip:rect(75px,9000px,12px,4px)}}@keyframes glitchTextNoiseMono_text_medium{84%{transform:rotateX(0) skewX(0)}
-85%{transform:rotateX(10deg) skewX(50deg)}86%{transform:rotateX(0) skewX(0)}}@keyframes glitchTextNoiseMono_before_hard{0%{clip:rect(50px,9000px,20px,7px)}
-5%{clip:rect(2px,9000px,99px,3px)}10%{clip:rect(72px,9000px,29px,7px)}15%{clip:rect(112px,9000px,140px,2px)}
-20%{clip:rect(40px,9000px,140px,7px)}25%{clip:rect(6px,9000px,22px,2px)}30%{clip:rect(135px,9000px,84px,4px)}
-35%{clip:rect(120px,9000px,87px,9px)}40%{clip:rect(84px,9000px,108px,6px)}45%{clip:rect(40px,9000px,107px,3px)}
-50%{clip:rect(137px,9000px,57px,2px)}55%{clip:rect(2px,9000px,125px,5px)}60%{clip:rect(108px,9000px,84px,6px)}
-65%{clip:rect(2px,9000px,9px,5px)}70%{clip:rect(11px,9000px,69px,7px)}75%{clip:rect(56px,9000px,54px,8px)}
-80%{clip:rect(146px,9000px,69px,5px)}85%{clip:rect(81px,9000px,50px,3px)}90%{clip:rect(40px,9000px,19px,2px)}
-95%{clip:rect(130px,9000px,122px,1px)}100%{clip:rect(144px,9000px,109px,9px)}}@keyframes glitchTextNoiseMono_after_hard{0{clip:rect(101px,9000px,3px,2px)}
-5%{clip:rect(127px,9000px,42px,2px)}10%{clip:rect(122px,9000px,28px,10px)}15%{clip:rect(57px,9000px,31px,7px)}
-20%{clip:rect(45px,9000px,93px,3px)}25%{clip:rect(35px,9000px,80px,6px)}30%{clip:rect(32px,9000px,4px,1px)}
-35%{clip:rect(96px,9000px,20px,10px)}40%{clip:rect(63px,9000px,30px,2px)}45%{clip:rect(21px,9000px,72px,9px)}
-50%{clip:rect(96px,9000px,47px,9px)}55%{clip:rect(9px,9000px,120px,5px)}60%{clip:rect(74px,9000px,36px,10px)}
-65%{clip:rect(20px,9000px,127px,10px)}70%{clip:rect(117px,9000px,81px,4px)}75%{clip:rect(101px,9000px,48px,6px)}
-80%{clip:rect(120px,9000px,57px,10px)}85%{clip:rect(117px,9000px,23px,3px)}90%{clip:rect(78px,9000px,40px,7px)}
-95%{clip:rect(148px,9000px,141px,9px)}100%{clip:rect(33px,9000px,33px,3px)}}@keyframes glitchTextNoiseMono_text_hard{32%{opacity:1}
+@keyframes glitchBackgroundNoise{0%{background-position:89px 576px}
+5%{background-position:399px 7px}10%{background-position:623px 716px}15%{background-position:55px 519px}
+20%{background-position:969px 685px}25%{background-position:816px 560px}30%{background-position:358px 345px}
+35%{background-position:777px 275px}40%{background-position:471px 557px}45%{background-position:30px 479px}
+50%{background-position:9px 550px}55%{background-position:402px 451px}60%{background-position:742px 451px}
+65%{background-position:936px 322px}70%{background-position:983px 396px}75%{background-position:596px 579px}
+80%{background-position:579px 718px}85%{background-position:696px 103px}90%{background-position:480px 551px}
+95%{background-position:434px 146px}100%{background-position:219px 679px}}@keyframes glitchTextNoiseMono_before_few{0{clip:rect(12px,9999px,87px,0)}
+5%{clip:rect(31px,9999px,30px,0)}10%{clip:rect(50px,9999px,79px,0)}15%{clip:rect(56px,9999px,15px,0)}
+20%{clip:rect(73px,9999px,60px,0)}25%{clip:rect(46px,9999px,87px,0)}30%{clip:rect(69px,9999px,35px,0)}
+35%{clip:rect(65px,9999px,33px,0)}40%{clip:rect(84px,9999px,96px,0)}45%{clip:rect(81px,9999px,39px,0)}
+50%{clip:rect(36px,9999px,43px,0)}55%{clip:rect(18px,9999px,96px,0)}60%{clip:rect(33px,9999px,28px,0)}
+65%{clip:rect(46px,9999px,79px,0)}70%{clip:rect(35px,9999px,41px,0)}75%{clip:rect(56px,9999px,70px,0)}
+80%{clip:rect(35px,9999px,91px,0)}85%{clip:rect(35px,9999px,65px,0)}90%{clip:rect(22px,9999px,40px,0)}
+95%{clip:rect(89px,9999px,2px,0)}100%{clip:rect(23px,9999px,83px,0)}}@keyframes glitchTextNoiseMono_after_few{0%{clip:rect(27px,9999px,44px,0)}
+5%{clip:rect(7px,9999px,59px,0)}10%{clip:rect(52px,9999px,42px,0)}15%{clip:rect(29px,9999px,49px,0)}
+20%{clip:rect(61px,9999px,6px,0)}25%{clip:rect(9px,9999px,38px,0)}30%{clip:rect(92px,9999px,70px,0)}
+35%{clip:rect(98px,9999px,69px,0)}40%{clip:rect(31px,9999px,32px,0)}45%{clip:rect(17px,9999px,98px,0)}
+50%{clip:rect(87px,9999px,13px,0)}55%{clip:rect(44px,9999px,99px,0)}60%{clip:rect(82px,9999px,28px,0)}
+65%{clip:rect(62px,9999px,99px,0)}70%{clip:rect(4px,9999px,85px,0)}75%{clip:rect(15px,9999px,26px,0)}
+80%{clip:rect(55px,9999px,5px,0)}85%{clip:rect(23px,9999px,30px,0)}90%{clip:rect(41px,9999px,70px,0)}
+95%{clip:rect(87px,9999px,80px,0)}100%{clip:rect(92px,9999px,17px,0)}}@keyframes glitchTextNoiseMono_before_medium{0{clip:rect(94px,9000px,75px,5px)}
+5%{clip:rect(5px,9000px,44px,2px)}10%{clip:rect(17px,9000px,50px,6px)}15%{clip:rect(76px,9000px,93px,9px)}
+20%{clip:rect(67px,9000px,21px,10px)}25%{clip:rect(50px,9000px,120px,4px)}30%{clip:rect(78px,9000px,97px,3px)}
+35%{clip:rect(9px,9000px,139px,4px)}40%{clip:rect(35px,9000px,20px,2px)}45%{clip:rect(5px,9000px,18px,2px)}
+50%{clip:rect(95px,9000px,16px,9px)}55%{clip:rect(8px,9000px,130px,1px)}60%{clip:rect(66px,9000px,118px,6px)}
+65%{clip:rect(31px,9000px,37px,6px)}70%{clip:rect(24px,9000px,95px,2px)}75%{clip:rect(120px,9000px,150px,8px)}
+80%{clip:rect(110px,9000px,60px,10px)}85%{clip:rect(13px,9000px,39px,8px)}90%{clip:rect(111px,9000px,101px,4px)}
+95%{clip:rect(85px,9000px,132px,3px)}100%{clip:rect(122px,9000px,104px,9px)}}@keyframes glitchTextNoiseMono_after_medium{0%{clip:rect(116px,9000px,146px,4px)}
+5%{clip:rect(92px,9000px,5px,8px)}10%{clip:rect(112px,9000px,126px,8px)}15%{clip:rect(2px,9000px,134px,4px)}
+20%{clip:rect(31px,9000px,142px,1px)}25%{clip:rect(24px,9000px,23px,4px)}30%{clip:rect(122px,9000px,114px,9px)}
+35%{clip:rect(9px,9000px,131px,5px)}40%{clip:rect(30px,9000px,14px,10px)}45%{clip:rect(79px,9000px,123px,3px)}
+50%{clip:rect(144px,9000px,124px,5px)}55%{clip:rect(43px,9000px,145px,6px)}60%{clip:rect(93px,9000px,105px,1px)}
+65%{clip:rect(53px,9000px,63px,10px)}70%{clip:rect(7px,9000px,133px,5px)}75%{clip:rect(119px,9000px,136px,7px)}
+80%{clip:rect(86px,9000px,66px,7px)}85%{clip:rect(35px,9000px,59px,4px)}90%{clip:rect(27px,9000px,46px,5px)}
+95%{clip:rect(67px,9000px,1px,5px)}100%{clip:rect(112px,9000px,65px,3px)}}@keyframes glitchTextNoiseMono_text_medium{84%{transform:rotateX(0) skewX(0)}
+85%{transform:rotateX(10deg) skewX(50deg)}86%{transform:rotateX(0) skewX(0)}}@keyframes glitchTextNoiseMono_before_hard{0%{clip:rect(70px,9000px,11px,7px)}
+5%{clip:rect(32px,9000px,107px,1px)}10%{clip:rect(114px,9000px,60px,10px)}15%{clip:rect(120px,9000px,122px,3px)}
+20%{clip:rect(45px,9000px,64px,7px)}25%{clip:rect(54px,9000px,86px,10px)}30%{clip:rect(141px,9000px,123px,5px)}
+35%{clip:rect(63px,9000px,108px,1px)}40%{clip:rect(69px,9000px,119px,10px)}45%{clip:rect(120px,9000px,92px,4px)}
+50%{clip:rect(77px,9000px,86px,4px)}55%{clip:rect(19px,9000px,49px,9px)}60%{clip:rect(75px,9000px,148px,5px)}
+65%{clip:rect(41px,9000px,78px,7px)}70%{clip:rect(41px,9000px,100px,1px)}75%{clip:rect(27px,9000px,64px,6px)}
+80%{clip:rect(65px,9000px,113px,1px)}85%{clip:rect(54px,9000px,72px,3px)}90%{clip:rect(72px,9000px,103px,7px)}
+95%{clip:rect(140px,9000px,108px,9px)}100%{clip:rect(31px,9000px,67px,9px)}}@keyframes glitchTextNoiseMono_after_hard{0{clip:rect(90px,9000px,67px,1px)}
+5%{clip:rect(146px,9000px,26px,4px)}10%{clip:rect(55px,9000px,138px,6px)}15%{clip:rect(95px,9000px,40px,6px)}
+20%{clip:rect(101px,9000px,123px,4px)}25%{clip:rect(126px,9000px,60px,2px)}30%{clip:rect(138px,9000px,141px,3px)}
+35%{clip:rect(5px,9000px,100px,10px)}40%{clip:rect(141px,9000px,120px,1px)}45%{clip:rect(20px,9000px,6px,10px)}
+50%{clip:rect(101px,9000px,86px,7px)}55%{clip:rect(12px,9000px,75px,9px)}60%{clip:rect(71px,9000px,30px,9px)}
+65%{clip:rect(81px,9000px,48px,2px)}70%{clip:rect(101px,9000px,24px,4px)}75%{clip:rect(128px,9000px,4px,7px)}
+80%{clip:rect(31px,9000px,47px,9px)}85%{clip:rect(53px,9000px,121px,7px)}90%{clip:rect(4px,9000px,121px,3px)}
+95%{clip:rect(16px,9000px,101px,2px)}100%{clip:rect(57px,9000px,126px,7px)}}@keyframes glitchTextNoiseMono_text_hard{32%{opacity:1}
 33%{opacity:0}34%{opacity:1}39%{opacity:1}40%{opacity:0}41%{opacity:1}46%{transform:rotateX(0) skewX(0)}
 47%{transform:rotateX(0) skewX(-90deg)}48%{transform:rotateX(0) skewX(0)}65%{opacity:1}
 66%{opacity:0}67%{opacity:1}84%{transform:rotateX(0) skewX(0)}85%{transform:rotateX(10deg) skewX(50deg)}
@@ -152,8 +150,7 @@ to{transform:translate(0,2%)}}.glitch.back.noise{position:relative;display:flex;
 }@keyframes glitchTextNoise_text_hard{32%{opacity:1}33%{opacity:.5}35%{opacity:1}
 39%{opacity:1}40%{opacity:.2}41%{opacity:1}46%{transform:rotateX(0) skewX(0)}47%{transform:rotateX(0) skewX(-90deg)}
 48%{transform:rotateX(0) skewX(0)}65%{opacity:1}66%{opacity:.5}67%{opacity:1}84%{transform:rotateX(0) skewX(0)}
-85%{transform:rotateX(10deg) skewX(70deg)}86%{transform:rotateX(0) skewX(0)}}@keyframes fudge{from{transform:translate(0,0)}
-to{transform:translate(0,2%)}}.glitch.text.vhs-effect{position:relative;color:white;mix-blend-mode:lighten;margin:auto;font-size:120px;text-transform:uppercase}
+85%{transform:rotateX(10deg) skewX(70deg)}86%{transform:rotateX(0) skewX(0)}}.glitch.text.vhs-effect{position:relative;color:white;mix-blend-mode:lighten;margin:auto;font-size:120px;text-transform:uppercase}
 .glitch.text.vhs-effect:before,.glitch.text.vhs-effect:after{content:attr(data-text);position:absolute;top:0;width:100%;clip:rect(0,0,0,0)}
 .glitch.text.vhs-effect:before{left:-1px;text-shadow:1px 0 rgba(255,0,0,0.7)}.glitch.text.vhs-effect:after{left:1px;text-shadow:-1px 0 rgba(0,0,255,0.7)}
 .glitch.text.vhs-effect:not(.hover).few:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_few .8s infinite ease-in-out alternate-reverse}
