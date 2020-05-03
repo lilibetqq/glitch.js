@@ -15,12 +15,12 @@
 		display: block;
 		content: attr( data-text);
 		text-transform: uppercase;
+    opacity: 0.8;
 		position: absolute;
 		top: 0;
 		left: 0;
 		height: 100%;
 		width: 100%;
-		opacity: .8;
 	} &:after {
 		color: #f0f;
 		z-index: -2;
@@ -33,26 +33,26 @@
 
     &.few{
       &:before {
-        animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+        animation: glitchTextCrash_few .4s cubic-bezier(.25, .46, .45, .94) infinite
       }
       &:after {
-        animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+        animation: glitchTextCrash_few .4s cubic-bezier(.25, .46, .45, .94) reverse infinite
       }
     }
     &.medium{
       &:before {
-        animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+        animation: glitchTextCrash_medium .4s cubic-bezier(.25, .46, .45, .94) infinite
       }
       &:after {
-        animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+        animation: glitchTextCrash_medium .4s cubic-bezier(.25, .46, .45, .94) reverse infinite
       }
     }
     &.hard{
       &:before {
-        animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+        animation: glitchTextCrash_hard .3s cubic-bezier(.25, .46, .45, .94) infinite
       }
       &:after {
-        animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+        animation: glitchTextCrash_hard .3s cubic-bezier(.25, .46, .45, .94) reverse infinite
       }
     }
 
@@ -62,26 +62,26 @@
       &:hover {
         &.few{
           &:before {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+            animation: glitchTextCrash_few .4s cubic-bezier(.25, .46, .45, .94) both 5
           }
           &:after {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            animation: glitchTextCrash_few .4s cubic-bezier(.25, .46, .45, .94) reverse both 5
           }
         }
         &.medium{
           &:before {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+            animation: glitchTextCrash_medium .4s cubic-bezier(.25, .46, .45, .94) both 5
           }
           &:after {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            animation: glitchTextCrash_medium .4s cubic-bezier(.25, .46, .45, .94) reverse both 5
           }
         }
         &.hard{
           &:before {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+            animation: glitchTextCrash_hard .3s cubic-bezier(.25, .46, .45, .94) both 5
           }
           &:after {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            animation: glitchTextCrash_hard .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
           }
         }
       }
@@ -90,26 +90,26 @@
       &:hover {
         &.few{
           &:before {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+            animation: glitchTextCrash_few .4s cubic-bezier(.25, .46, .45, .94) infinite
           }
           &:after {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            animation: glitchTextCrash_few .4s cubic-bezier(.25, .46, .45, .94) reverse infinite
           }
         }
         &.medium{
           &:before {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+            animation: glitchTextCrash_medium .4s cubic-bezier(.25, .46, .45, .94) infinite
           }
           &:after {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            animation: glitchTextCrash_medium .4s cubic-bezier(.25, .46, .45, .94) reverse infinite
           }
         }
         &.hard{
           &:before {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) both 5
+            animation: glitchTextCrash_hard .3s cubic-bezier(.25, .46, .45, .94) infinite
           }
           &:after {
-            animation: glitchTextCrash .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+            animation: glitchTextCrash_hard .3s cubic-bezier(.25, .46, .45, .94) reverse infinite
           }
         }
       }
