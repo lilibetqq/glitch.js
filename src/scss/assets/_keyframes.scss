@@ -8,14 +8,44 @@
   }
 }
 //==========text glitchTextNoiseMono========
-@keyframes glitchTextNoiseMono_before{
+@keyframes glitchTextNoiseMono_before_few{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
       clip:rect(random(100)+px,9999px,random(100)+px,0);
     }
   }
 }
-@keyframes glitchTextNoiseMono_after{
+@keyframes glitchTextNoiseMono_after_few{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+@keyframes glitchTextNoiseMono_before_medium{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+@keyframes glitchTextNoiseMono_after_medium{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+@keyframes glitchTextNoiseMono_before_hard{
+  @for $i from 0 through $count{
+    #{percentage($i*(1/$count))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+@keyframes glitchTextNoiseMono_after_hard{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
       clip:rect(random(100)+px,9999px,random(100)+px,0);
