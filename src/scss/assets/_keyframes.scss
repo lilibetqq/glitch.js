@@ -1,5 +1,5 @@
 @import 'constant';
-
+//==========back noise========
 @keyframes glitchBackgroundNoise{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
@@ -7,7 +7,7 @@
     }
   }
 }
-
+//==========text glitchTextNoiseMono========
 @keyframes glitchTextNoiseMono_before{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
@@ -23,18 +23,92 @@
   }
 }
 
-@keyframes glitchTextNoise_before {
-  0% { clip: rect(36px, 9999px, 9px, 0) }
+//==========text glitchTextNoise========
+
+@keyframes glitchTextNoise_before_few {
+  0% { clip: rect(36px, 9999px, 9px, 0)  }
   25% { clip: rect(25px, 9999px, 99px, 0) }
   50% { clip: rect(50px, 9999px, 102px, 0) }
   75% { clip: rect(30px, 9999px, 92px, 0) }
   100% { clip: rect(91px, 9999px, 98px, 0) }
 }
 
-@keyframes glitchTextNoise_after {
+@keyframes glitchTextNoise_after_few {
   0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
   25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
   50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
   75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
   100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
 }
+
+
+
+@keyframes glitchTextNoise_before_medium {
+  0% { clip: rect(36px, 9999px, 9px, 0)  }
+  25% { clip: rect(25px, 9999px, 99px, 0) }
+  50% { clip: rect(50px, 9999px, 102px, 0) }
+  75% { clip: rect(30px, 9999px, 92px, 0) }
+  100% { clip: rect(91px, 9999px, 98px, 0) }
+}
+@keyframes glitchTextNoise_after_medium {
+  0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
+  25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
+  50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
+  75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
+  100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
+}
+@keyframes glitchTextNoise_text_medium{
+  32%{ opacity: 1;}
+  33%{      opacity: 0.5; }
+  35%{ opacity: 1;}
+
+  39%{ opacity: 1;}
+  40%{      opacity: 0.5; }
+  41%{ opacity: 1;}
+
+  65%{ opacity: 1;}
+  66%{      opacity: 0.5; }
+  67%{ opacity: 1;}
+
+  84%{ transform: rotateX(0deg) skewX(0deg); }
+  85%{  transform: rotateX(10deg) skewX(50deg); }
+  86%{ transform: rotateX(0deg) skewX(0deg); }
+}
+
+
+@keyframes glitchTextNoise_before_hard {
+  0% { clip: rect(36px, 9999px, 9px, 0)  }
+  25% { clip: rect(25px, 9999px, 99px, 0) }
+  50% { clip: rect(50px, 9999px, 102px, 0) }
+  75% { clip: rect(30px, 9999px, 92px, 0) }
+  100% { clip: rect(91px, 9999px, 98px, 0) }
+}
+@keyframes glitchTextNoise_after_hard {
+  0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
+  25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
+  50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
+  75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
+  100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
+}
+@keyframes glitchTextNoise_text_hard{
+  84%{ transform: rotateX(0deg) skewX(0deg); }
+  85%{  transform: rotateX(10deg) skewX(70deg); }
+  86%{ transform: rotateX(0deg) skewX(0deg); }
+}
+
+
+// @keyframes glitchTextNoise_before {
+//   0% { clip: rect(36px, 9999px, 9px, 0) }
+//   25% { clip: rect(25px, 9999px, 99px, 0) }
+//   50% { clip: rect(50px, 9999px, 102px, 0) }
+//   75% { clip: rect(30px, 9999px, 92px, 0) }
+//   100% { clip: rect(91px, 9999px, 98px, 0) }
+// }
+//
+// @keyframes glitchTextNoise_after {
+//   0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
+//   25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
+//   50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
+//   75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
+//   100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
+// }

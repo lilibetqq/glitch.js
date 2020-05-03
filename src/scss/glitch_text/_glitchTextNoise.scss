@@ -7,18 +7,18 @@
   position: relative;
   color: white;
   mix-blend-mode: lighten;
-  &.styled{
+
     margin: auto;
     font-size: 120px;
     text-transform: uppercase;
-  }
+
   &:before,
   &:after {
       content: attr(data-text);
       position: absolute;
       top: 0;
       width: 100%;
-      background: black;
+      // background: black;
       clip: rect(0, 0, 0, 0);
   }
 
@@ -31,25 +31,82 @@
       left: 1px;
       text-shadow: -1px 0 rgba(blue,0.7);
   }
+
   &:not(.hover) {
-    &:before {
-      text-shadow: 4px 0 rgba(red,0.7);
-      animation: glitchTextNoise_before 0.8s infinite ease-in-out alternate-reverse;
+    &.few{
+      animation: glitchTextNoise_text_medium 5.0s infinite;
+
+      &:before {
+        text-shadow: 4px 0 rgba(red,0.7);
+        animation: glitchTextNoise_before_few 0.8s infinite ease-in-out alternate-reverse;
+      }
+      &:after {
+        text-shadow: -5px 0 rgba(blue,0.7);
+        animation: glitchTextNoise_after_few 0.8s infinite ease-in-out alternate-reverse;
+      }
+
     }
-    &:after {
-      text-shadow: -5px 0 rgba(blue,0.7);
-      animation: glitchTextNoise_after 0.8s infinite ease-in-out alternate-reverse;
+    &.medium{
+      animation: glitchTextNoise_text_medium 5.0s infinite;
+
+      &:before {
+        text-shadow: 4px 0 rgba(red,0.7);
+        animation: glitchTextNoise_before_medium 0.8s infinite ease-in-out alternate-reverse;
+      }
+      &:after {
+        text-shadow: -5px 0 rgba(blue,0.7);
+        animation: glitchTextNoise_after_medium 0.8s infinite ease-in-out alternate-reverse;
+      }
+
+    }
+    &.hard{
+      animation: glitchTextNoise_text_hard 4.8s infinite;
+
+      &:before {
+        text-shadow: 4px 0 rgba(red,0.7);
+        animation: glitchTextNoise_before_hard  0.8s infinite ease-in-out alternate-reverse;
+      }
+      &:after {
+        text-shadow: -5px 0 rgba(blue,0.7);
+        animation: glitchTextNoise_after_hard  0.8s infinite ease-in-out alternate-reverse;
+      }
+
     }
   }
   &.hover{
     &:hover {
-      &:before {
-        text-shadow: 4px 0 rgba(red,0.7);
-        animation: glitchTextNoise_before 0.8s infinite ease-in-out alternate-reverse;
+      &.few{
+
+        &:before {
+          text-shadow: 4px 0 rgba(red,0.7);
+          animation: glitchTextNoise_before_few 0.8s infinite ease-in-out alternate-reverse;
+        }
+        &:after {
+          text-shadow: -5px 0 rgba(blue,0.7);
+          animation: glitchTextNoise_after_few 0.8s infinite ease-in-out alternate-reverse;
+        }
       }
-      &:after {
-        text-shadow: -5px 0 rgba(blue,0.7);
-        animation: glitchTextNoise_after 0.8s infinite ease-in-out alternate-reverse;
+      &.medium{
+        animation: glitchTextNoise_text_medium 5.0s infinite;
+        &:before {
+          text-shadow: 4px 0 rgba(red,0.7);
+          animation: glitchTextNoise_before_medium 0.8s infinite ease-in-out alternate-reverse;
+        }
+        &:after {
+          text-shadow: -5px 0 rgba(blue,0.7);
+          animation: glitchTextNoise_after_medium 0.8s infinite ease-in-out alternate-reverse;
+        }
+      }
+      &.hard{
+        animation: glitchTextNoise_text_hard 4.8s infinite;
+        &:before {
+          text-shadow: 4px 0 rgba(red,0.7);
+          animation: glitchTextNoise_before_hard 0.8s infinite ease-in-out alternate-reverse;
+        }
+        &:after {
+          text-shadow: -5px 0 rgba(blue,0.7);
+          animation: glitchTextNoise_after_hard 0.8s infinite ease-in-out alternate-reverse;
+        }
       }
     }
   }

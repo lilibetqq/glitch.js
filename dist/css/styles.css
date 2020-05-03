@@ -1,67 +1,108 @@
-body{background:#3e3e3e}@keyframes glitchBackgroundNoise{0%{background-position:442px 820px}
-5%{background-position:837px 808px}10%{background-position:90px 473px}15%{background-position:473px 294px}
-20%{background-position:563px 891px}25%{background-position:704px 314px}30%{background-position:686px 125px}
-35%{background-position:665px 343px}40%{background-position:928px 241px}45%{background-position:830px 521px}
-50%{background-position:66px 867px}55%{background-position:194px 964px}60%{background-position:314px 303px}
-65%{background-position:495px 728px}70%{background-position:789px 211px}75%{background-position:506px 554px}
-80%{background-position:249px 470px}85%{background-position:677px 603px}90%{background-position:690px 411px}
-95%{background-position:171px 607px}100%{background-position:41px 42px}}@keyframes glitchTextNoiseMono_before{0{clip:rect(87px,9999px,3px,0)}
-5%{clip:rect(18px,9999px,12px,0)}10%{clip:rect(68px,9999px,82px,0)}15%{clip:rect(21px,9999px,59px,0)}
-20%{clip:rect(52px,9999px,29px,0)}25%{clip:rect(87px,9999px,21px,0)}30%{clip:rect(46px,9999px,58px,0)}
-35%{clip:rect(60px,9999px,89px,0)}40%{clip:rect(98px,9999px,32px,0)}45%{clip:rect(71px,9999px,42px,0)}
-50%{clip:rect(1px,9999px,28px,0)}55%{clip:rect(11px,9999px,89px,0)}60%{clip:rect(63px,9999px,79px,0)}
-65%{clip:rect(45px,9999px,59px,0)}70%{clip:rect(43px,9999px,19px,0)}75%{clip:rect(57px,9999px,62px,0)}
-80%{clip:rect(22px,9999px,50px,0)}85%{clip:rect(75px,9999px,89px,0)}90%{clip:rect(56px,9999px,20px,0)}
-95%{clip:rect(76px,9999px,9px,0)}100%{clip:rect(58px,9999px,45px,0)}}@keyframes glitchTextNoiseMono_after{0%{clip:rect(43px,9999px,40px,0)}
-5%{clip:rect(10px,9999px,50px,0)}10%{clip:rect(56px,9999px,21px,0)}15%{clip:rect(79px,9999px,86px,0)}
-20%{clip:rect(15px,9999px,67px,0)}25%{clip:rect(74px,9999px,99px,0)}30%{clip:rect(75px,9999px,73px,0)}
-35%{clip:rect(29px,9999px,89px,0)}40%{clip:rect(13px,9999px,42px,0)}45%{clip:rect(48px,9999px,91px,0)}
-50%{clip:rect(30px,9999px,13px,0)}55%{clip:rect(19px,9999px,44px,0)}60%{clip:rect(71px,9999px,42px,0)}
-65%{clip:rect(98px,9999px,99px,0)}70%{clip:rect(4px,9999px,33px,0)}75%{clip:rect(61px,9999px,38px,0)}
-80%{clip:rect(44px,9999px,36px,0)}85%{clip:rect(100px,9999px,30px,0)}90%{clip:rect(46px,9999px,97px,0)}
-95%{clip:rect(45px,9999px,6px,0)}100%{clip:rect(30px,9999px,38px,0)}}@keyframes glitchTextNoise_before{0{clip:rect(36px,9999px,9px,0)}
+body{background:#3e3e3e}@keyframes glitchBackgroundNoise{0%{background-position:194px 829px}
+5%{background-position:994px 940px}10%{background-position:550px 991px}15%{background-position:406px 839px}
+20%{background-position:389px 186px}25%{background-position:813px 382px}30%{background-position:53px 654px}
+35%{background-position:641px 13px}40%{background-position:202px 665px}45%{background-position:207px 503px}
+50%{background-position:704px 218px}55%{background-position:877px 628px}60%{background-position:382px 407px}
+65%{background-position:354px 11px}70%{background-position:120px 105px}75%{background-position:89px 470px}
+80%{background-position:299px 571px}85%{background-position:552px 647px}90%{background-position:35px 157px}
+95%{background-position:635px 52px}100%{background-position:954px 268px}}@keyframes glitchTextNoiseMono_before{0{clip:rect(30px,9999px,90px,0)}
+5%{clip:rect(37px,9999px,24px,0)}10%{clip:rect(83px,9999px,66px,0)}15%{clip:rect(76px,9999px,59px,0)}
+20%{clip:rect(93px,9999px,94px,0)}25%{clip:rect(34px,9999px,70px,0)}30%{clip:rect(77px,9999px,56px,0)}
+35%{clip:rect(40px,9999px,10px,0)}40%{clip:rect(2px,9999px,30px,0)}45%{clip:rect(85px,9999px,22px,0)}
+50%{clip:rect(64px,9999px,1px,0)}55%{clip:rect(27px,9999px,23px,0)}60%{clip:rect(8px,9999px,89px,0)}
+65%{clip:rect(16px,9999px,24px,0)}70%{clip:rect(59px,9999px,62px,0)}75%{clip:rect(50px,9999px,87px,0)}
+80%{clip:rect(39px,9999px,10px,0)}85%{clip:rect(22px,9999px,68px,0)}90%{clip:rect(47px,9999px,37px,0)}
+95%{clip:rect(35px,9999px,77px,0)}100%{clip:rect(45px,9999px,95px,0)}}@keyframes glitchTextNoiseMono_after{0%{clip:rect(41px,9999px,88px,0)}
+5%{clip:rect(33px,9999px,29px,0)}10%{clip:rect(40px,9999px,64px,0)}15%{clip:rect(22px,9999px,9px,0)}
+20%{clip:rect(40px,9999px,44px,0)}25%{clip:rect(25px,9999px,71px,0)}30%{clip:rect(60px,9999px,62px,0)}
+35%{clip:rect(96px,9999px,54px,0)}40%{clip:rect(34px,9999px,87px,0)}45%{clip:rect(37px,9999px,52px,0)}
+50%{clip:rect(14px,9999px,43px,0)}55%{clip:rect(10px,9999px,88px,0)}60%{clip:rect(90px,9999px,81px,0)}
+65%{clip:rect(63px,9999px,97px,0)}70%{clip:rect(27px,9999px,88px,0)}75%{clip:rect(64px,9999px,94px,0)}
+80%{clip:rect(10px,9999px,15px,0)}85%{clip:rect(55px,9999px,37px,0)}90%{clip:rect(95px,9999px,22px,0)}
+95%{clip:rect(18px,9999px,28px,0)}100%{clip:rect(38px,9999px,36px,0)}}@keyframes glitchTextNoise_before_few{0{clip:rect(36px,9999px,9px,0)}
 25%{clip:rect(25px,9999px,99px,0)}50%{clip:rect(50px,9999px,102px,0)}75%{clip:rect(30px,9999px,92px,0)}
-100%{clip:rect(91px,9999px,98px,0)}}@keyframes glitchTextNoise_after{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
+100%{clip:rect(91px,9999px,98px,0)}}@keyframes glitchTextNoise_after_few{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
 25%{top:-6px;left:4px;clip:rect(79px,9999px,19px,0)}50%{top:-3px;left:2px;clip:rect(68px,9999px,11px,0)}
 75%{top:0;left:-4px;clip:rect(95px,9999px,53px,0)}100%{top:-1px;left:-1px;clip:rect(31px,9999px,149px,0)}
-}.glitch.back.noise{position:relative;display:flex;align-items:center;justify-content:center;flex-flow:column;height:200px;background:#673ab7;color:#fff;text-align:center}
+}@keyframes glitchTextNoise_before_medium{0%{clip:rect(36px,9999px,9px,0)}
+25%{clip:rect(25px,9999px,99px,0)}50%{clip:rect(50px,9999px,102px,0)}75%{clip:rect(30px,9999px,92px,0)}
+100%{clip:rect(91px,9999px,98px,0)}}@keyframes glitchTextNoise_after_medium{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
+25%{top:-6px;left:4px;clip:rect(79px,9999px,19px,0)}50%{top:-3px;left:2px;clip:rect(68px,9999px,11px,0)}
+75%{top:0;left:-4px;clip:rect(95px,9999px,53px,0)}100%{top:-1px;left:-1px;clip:rect(31px,9999px,149px,0)}
+}@keyframes glitchTextNoise_text_medium{32%{opacity:1}33%{opacity:.5}35%{opacity:1}
+39%{opacity:1}40%{opacity:.5}41%{opacity:1}65%{opacity:1}66%{opacity:.5}67%{opacity:1}
+84%{transform:rotateX(0) skewX(0)}85%{transform:rotateX(10deg) skewX(50deg)}86%{transform:rotateX(0) skewX(0)}
+}@keyframes glitchTextNoise_before_hard{0{clip:rect(36px,9999px,9px,0)}25%{clip:rect(25px,9999px,99px,0)}
+50%{clip:rect(50px,9999px,102px,0)}75%{clip:rect(30px,9999px,92px,0)}100%{clip:rect(91px,9999px,98px,0)}
+}@keyframes glitchTextNoise_after_hard{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
+25%{top:-6px;left:4px;clip:rect(79px,9999px,19px,0)}50%{top:-3px;left:2px;clip:rect(68px,9999px,11px,0)}
+75%{top:0;left:-4px;clip:rect(95px,9999px,53px,0)}100%{top:-1px;left:-1px;clip:rect(31px,9999px,149px,0)}
+}@keyframes glitchTextNoise_text_hard{84%{transform:rotateX(0) skewX(0)}85%{transform:rotateX(10deg) skewX(70deg)}
+86%{transform:rotateX(0) skewX(0)}}.glitch.back.noise{position:relative;display:flex;align-items:center;justify-content:center;flex-flow:column;height:200px;background:#673ab7;color:#fff;text-align:center}
 .glitch.back.noise::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:url("../../src/img/img-noise.png");animation:1s infinite glitchBackgroundNoise;pointer-events:none}
-@keyframes glitchBackgroundNoise{0%{background-position:535px 615px}
-5%{background-position:981px 540px}10%{background-position:717px 810px}15%{background-position:473px 187px}
-20%{background-position:696px 719px}25%{background-position:197px 671px}30%{background-position:346px 181px}
-35%{background-position:455px 80px}40%{background-position:691px 678px}45%{background-position:983px 834px}
-50%{background-position:632px 82px}55%{background-position:984px 816px}60%{background-position:89px 740px}
-65%{background-position:950px 257px}70%{background-position:615px 462px}75%{background-position:960px 85px}
-80%{background-position:570px 209px}85%{background-position:977px 704px}90%{background-position:910px 247px}
-95%{background-position:453px 995px}100%{background-position:937px 75px}}@keyframes glitchTextNoiseMono_before{0{clip:rect(12px,9999px,3px,0)}
-5%{clip:rect(44px,9999px,38px,0)}10%{clip:rect(52px,9999px,79px,0)}15%{clip:rect(16px,9999px,99px,0)}
-20%{clip:rect(5px,9999px,14px,0)}25%{clip:rect(88px,9999px,2px,0)}30%{clip:rect(95px,9999px,41px,0)}
-35%{clip:rect(4px,9999px,10px,0)}40%{clip:rect(30px,9999px,51px,0)}45%{clip:rect(34px,9999px,14px,0)}
-50%{clip:rect(6px,9999px,72px,0)}55%{clip:rect(77px,9999px,85px,0)}60%{clip:rect(36px,9999px,19px,0)}
-65%{clip:rect(83px,9999px,68px,0)}70%{clip:rect(7px,9999px,3px,0)}75%{clip:rect(28px,9999px,73px,0)}
-80%{clip:rect(9px,9999px,85px,0)}85%{clip:rect(84px,9999px,49px,0)}90%{clip:rect(36px,9999px,80px,0)}
-95%{clip:rect(23px,9999px,34px,0)}100%{clip:rect(94px,9999px,86px,0)}}@keyframes glitchTextNoiseMono_after{0%{clip:rect(64px,9999px,97px,0)}
-5%{clip:rect(22px,9999px,48px,0)}10%{clip:rect(84px,9999px,66px,0)}15%{clip:rect(32px,9999px,16px,0)}
-20%{clip:rect(61px,9999px,77px,0)}25%{clip:rect(68px,9999px,12px,0)}30%{clip:rect(54px,9999px,82px,0)}
-35%{clip:rect(79px,9999px,13px,0)}40%{clip:rect(19px,9999px,55px,0)}45%{clip:rect(43px,9999px,78px,0)}
-50%{clip:rect(28px,9999px,26px,0)}55%{clip:rect(81px,9999px,86px,0)}60%{clip:rect(4px,9999px,63px,0)}
-65%{clip:rect(98px,9999px,42px,0)}70%{clip:rect(70px,9999px,62px,0)}75%{clip:rect(8px,9999px,88px,0)}
-80%{clip:rect(29px,9999px,93px,0)}85%{clip:rect(90px,9999px,2px,0)}90%{clip:rect(63px,9999px,30px,0)}
-95%{clip:rect(58px,9999px,39px,0)}100%{clip:rect(33px,9999px,58px,0)}}@keyframes glitchTextNoise_before{0{clip:rect(36px,9999px,9px,0)}
+@keyframes glitchBackgroundNoise{0%{background-position:37px 330px}
+5%{background-position:381px 12px}10%{background-position:456px 527px}15%{background-position:648px 927px}
+20%{background-position:645px 776px}25%{background-position:687px 794px}30%{background-position:61px 746px}
+35%{background-position:851px 697px}40%{background-position:500px 45px}45%{background-position:326px 328px}
+50%{background-position:699px 210px}55%{background-position:677px 659px}60%{background-position:548px 771px}
+65%{background-position:649px 366px}70%{background-position:246px 347px}75%{background-position:654px 838px}
+80%{background-position:852px 459px}85%{background-position:448px 230px}90%{background-position:780px 509px}
+95%{background-position:281px 610px}100%{background-position:776px 89px}}@keyframes glitchTextNoiseMono_before{0{clip:rect(22px,9999px,17px,0)}
+5%{clip:rect(67px,9999px,21px,0)}10%{clip:rect(8px,9999px,61px,0)}15%{clip:rect(29px,9999px,3px,0)}
+20%{clip:rect(69px,9999px,68px,0)}25%{clip:rect(27px,9999px,45px,0)}30%{clip:rect(9px,9999px,31px,0)}
+35%{clip:rect(47px,9999px,60px,0)}40%{clip:rect(56px,9999px,28px,0)}45%{clip:rect(57px,9999px,38px,0)}
+50%{clip:rect(65px,9999px,100px,0)}55%{clip:rect(71px,9999px,33px,0)}60%{clip:rect(57px,9999px,93px,0)}
+65%{clip:rect(37px,9999px,99px,0)}70%{clip:rect(68px,9999px,71px,0)}75%{clip:rect(50px,9999px,69px,0)}
+80%{clip:rect(81px,9999px,58px,0)}85%{clip:rect(79px,9999px,95px,0)}90%{clip:rect(29px,9999px,40px,0)}
+95%{clip:rect(58px,9999px,74px,0)}100%{clip:rect(37px,9999px,22px,0)}}@keyframes glitchTextNoiseMono_after{0%{clip:rect(62px,9999px,94px,0)}
+5%{clip:rect(18px,9999px,61px,0)}10%{clip:rect(35px,9999px,40px,0)}15%{clip:rect(26px,9999px,77px,0)}
+20%{clip:rect(54px,9999px,30px,0)}25%{clip:rect(90px,9999px,5px,0)}30%{clip:rect(72px,9999px,59px,0)}
+35%{clip:rect(62px,9999px,94px,0)}40%{clip:rect(68px,9999px,62px,0)}45%{clip:rect(13px,9999px,63px,0)}
+50%{clip:rect(14px,9999px,29px,0)}55%{clip:rect(50px,9999px,72px,0)}60%{clip:rect(1px,9999px,33px,0)}
+65%{clip:rect(38px,9999px,57px,0)}70%{clip:rect(75px,9999px,47px,0)}75%{clip:rect(57px,9999px,70px,0)}
+80%{clip:rect(73px,9999px,95px,0)}85%{clip:rect(57px,9999px,61px,0)}90%{clip:rect(39px,9999px,47px,0)}
+95%{clip:rect(22px,9999px,4px,0)}100%{clip:rect(34px,9999px,82px,0)}}@keyframes glitchTextNoise_before_few{0{clip:rect(36px,9999px,9px,0)}
 25%{clip:rect(25px,9999px,99px,0)}50%{clip:rect(50px,9999px,102px,0)}75%{clip:rect(30px,9999px,92px,0)}
-100%{clip:rect(91px,9999px,98px,0)}}@keyframes glitchTextNoise_after{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
+100%{clip:rect(91px,9999px,98px,0)}}@keyframes glitchTextNoise_after_few{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
 25%{top:-6px;left:4px;clip:rect(79px,9999px,19px,0)}50%{top:-3px;left:2px;clip:rect(68px,9999px,11px,0)}
 75%{top:0;left:-4px;clip:rect(95px,9999px,53px,0)}100%{top:-1px;left:-1px;clip:rect(31px,9999px,149px,0)}
-}.glitch.text.twitch-text{position:relative;color:white;mix-blend-mode:lighten}.glitch.text.twitch-text.styled{margin:auto;font-size:120px;text-transform:uppercase}
-.glitch.text.twitch-text:before,.glitch.text.twitch-text:after{content:attr(data-text);position:absolute;top:0;width:100%;background:black;clip:rect(0,0,0,0)}
+}@keyframes glitchTextNoise_before_medium{0%{clip:rect(36px,9999px,9px,0)}
+25%{clip:rect(25px,9999px,99px,0)}50%{clip:rect(50px,9999px,102px,0)}75%{clip:rect(30px,9999px,92px,0)}
+100%{clip:rect(91px,9999px,98px,0)}}@keyframes glitchTextNoise_after_medium{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
+25%{top:-6px;left:4px;clip:rect(79px,9999px,19px,0)}50%{top:-3px;left:2px;clip:rect(68px,9999px,11px,0)}
+75%{top:0;left:-4px;clip:rect(95px,9999px,53px,0)}100%{top:-1px;left:-1px;clip:rect(31px,9999px,149px,0)}
+}@keyframes glitchTextNoise_text_medium{32%{opacity:1}33%{opacity:.5}35%{opacity:1}
+39%{opacity:1}40%{opacity:.5}41%{opacity:1}65%{opacity:1}66%{opacity:.5}67%{opacity:1}
+84%{transform:rotateX(0) skewX(0)}85%{transform:rotateX(10deg) skewX(50deg)}86%{transform:rotateX(0) skewX(0)}
+}@keyframes glitchTextNoise_before_hard{0{clip:rect(36px,9999px,9px,0)}25%{clip:rect(25px,9999px,99px,0)}
+50%{clip:rect(50px,9999px,102px,0)}75%{clip:rect(30px,9999px,92px,0)}100%{clip:rect(91px,9999px,98px,0)}
+}@keyframes glitchTextNoise_after_hard{0%{top:-1px;left:1px;clip:rect(65px,9999px,119px,0)}
+25%{top:-6px;left:4px;clip:rect(79px,9999px,19px,0)}50%{top:-3px;left:2px;clip:rect(68px,9999px,11px,0)}
+75%{top:0;left:-4px;clip:rect(95px,9999px,53px,0)}100%{top:-1px;left:-1px;clip:rect(31px,9999px,149px,0)}
+}@keyframes glitchTextNoise_text_hard{84%{transform:rotateX(0) skewX(0)}85%{transform:rotateX(10deg) skewX(70deg)}
+86%{transform:rotateX(0) skewX(0)}}.glitch.text.twitch-text{position:relative;color:white;mix-blend-mode:lighten;margin:auto;font-size:120px;text-transform:uppercase}
+.glitch.text.twitch-text:before,.glitch.text.twitch-text:after{content:attr(data-text);position:absolute;top:0;width:100%;clip:rect(0,0,0,0)}
 .glitch.text.twitch-text:before{left:-1px;text-shadow:1px 0 rgba(255,0,0,0.7)}.glitch.text.twitch-text:after{left:1px;text-shadow:-1px 0 rgba(0,0,255,0.7)}
-.glitch.text.twitch-text:not(.hover):before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before .8s infinite ease-in-out alternate-reverse}
-.glitch.text.twitch-text:not(.hover):after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after .8s infinite ease-in-out alternate-reverse}
-.glitch.text.twitch-text.hover:hover:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before .8s infinite ease-in-out alternate-reverse}
-.glitch.text.twitch-text.hover:hover:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after .8s infinite ease-in-out alternate-reverse}
-.glitch.text.twitch-mono-text.styled{color:white;position:relative;margin:0 auto;background:rgba(0,0,0,0.95);letter-spacing:1px;margin:auto;font-size:120px;text-transform:uppercase}
-.glitch.text.twitch-mono-text.styled:not(.hover):after{content:attr(data-text);position:absolute;left:2px;text-shadow:-1px 0 red;top:0;color:white;background:black;overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_before 2s infinite linear alternate-reverse}
-.glitch.text.twitch-mono-text.styled:not(.hover):before{content:attr(data-text);position:absolute;left:-2px;text-shadow:1px 0 blue;top:0;color:white;background:rgba(0,0,0,0.25);overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_after 2s infinite linear alternate-reverse}
-.glitch.text.twitch-mono-text.styled.hover:hover:after{content:attr(data-text);position:absolute;left:2px;text-shadow:-1px 0 red;top:0;color:white;background:black;overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_before 2s infinite linear alternate-reverse}
-.glitch.text.twitch-mono-text.styled.hover:hover:before{content:attr(data-text);position:absolute;left:-2px;text-shadow:1px 0 blue;top:0;color:white;background:rgba(0,0,0,0.25);overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_after 2s infinite linear alternate-reverse}
+.glitch.text.twitch-text:not(.hover).few{animation:glitchTextNoise_text_medium 5.0s infinite}
+.glitch.text.twitch-text:not(.hover).few:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_few .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text:not(.hover).few:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after_few .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text:not(.hover).medium{animation:glitchTextNoise_text_medium 5.0s infinite}
+.glitch.text.twitch-text:not(.hover).medium:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_medium .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text:not(.hover).medium:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after_medium .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text:not(.hover).hard{animation:glitchTextNoise_text_hard 4.8s infinite}
+.glitch.text.twitch-text:not(.hover).hard:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_hard .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text:not(.hover).hard:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after_hard .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text.hover:hover.few:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_few .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text.hover:hover.few:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after_few .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text.hover:hover.medium{animation:glitchTextNoise_text_medium 5.0s infinite}
+.glitch.text.twitch-text.hover:hover.medium:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_medium .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text.hover:hover.medium:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after_medium .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text.hover:hover.hard{animation:glitchTextNoise_text_hard 4.8s infinite}
+.glitch.text.twitch-text.hover:hover.hard:before{text-shadow:4px 0 rgba(255,0,0,0.7);animation:glitchTextNoise_before_hard .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-text.hover:hover.hard:after{text-shadow:-5px 0 rgba(0,0,255,0.7);animation:glitchTextNoise_after_hard .8s infinite ease-in-out alternate-reverse}
+.glitch.text.twitch-mono-text{color:white;position:relative;margin:0 auto;background:rgba(0,0,0,0.95);letter-spacing:1px;margin:auto;font-size:120px;text-transform:uppercase}
+.glitch.text.twitch-mono-text:not(.hover):after{content:attr(data-text);position:absolute;left:2px;text-shadow:-1px 0 red;top:0;color:white;background:black;overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_before 2s infinite linear alternate-reverse}
+.glitch.text.twitch-mono-text:not(.hover):before{content:attr(data-text);position:absolute;left:-2px;text-shadow:1px 0 blue;top:0;color:white;background:rgba(0,0,0,0.25);overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_after 2s infinite linear alternate-reverse}
+.glitch.text.twitch-mono-text.hover:hover:after{content:attr(data-text);position:absolute;left:2px;text-shadow:-1px 0 red;top:0;color:white;background:black;overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_before 2s infinite linear alternate-reverse}
+.glitch.text.twitch-mono-text.hover:hover:before{content:attr(data-text);position:absolute;left:-2px;text-shadow:1px 0 blue;top:0;color:white;background:rgba(0,0,0,0.25);overflow:hidden;clip:rect(0,900px,0,0);animation:glitchTextNoiseMono_after 2s infinite linear alternate-reverse}
 /*# sourceMappingURL=styles.css.map */

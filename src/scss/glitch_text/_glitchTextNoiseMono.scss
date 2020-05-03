@@ -1,7 +1,7 @@
 
 
 .glitch.text.twitch-mono-text{
-  &.styled{
+
         color: white;
         position: relative;
         margin: 0 auto;
@@ -10,7 +10,7 @@
         margin: auto;
         font-size: 120px;
         text-transform: uppercase;
-
+ 
   &:not(.hover) {
   &:after{
     content:attr(data-text);
@@ -67,6 +67,6 @@
   }
 }
 
-}
+
 
 }
