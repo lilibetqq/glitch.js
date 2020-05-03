@@ -184,4 +184,26 @@
   86%{ transform: rotateX(0deg) skewX(0deg); }
 }
 
- 
+
+//==========text glitchTextCrash========
+
+@keyframes glitchTextCrash {
+ 0% {
+   transform: translate(0)
+ }
+ 20% {
+   transform: translate(-5px, 5px)
+ }
+ 40% {
+   transform: translate(-5px, -5px)
+ }
+ 60% {
+   transform: translate(5px, 5px)
+ }
+ 80% {
+   transform: translate(5px, -5px)
+ }
+ to {
+   transform: translate(0)
+ }
+}
