@@ -9,12 +9,14 @@
 }
 //==========text glitchTextNoiseMono========
 @keyframes glitchTextNoiseMono_before_few{
+
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
       clip:rect(random(100)+px,9999px,random(100)+px,0);
     }
   }
 }
+
 @keyframes glitchTextNoiseMono_after_few{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
@@ -23,19 +25,29 @@
   }
 }
 
+
 @keyframes glitchTextNoiseMono_before_medium{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
+            clip: rect(random(150)+px, 9000px, random(150)+px,random(10)+px)
     }
   }
 }
+
 @keyframes glitchTextNoiseMono_after_medium{
   @for $i from 0 through $count{
     #{percentage($i*(1/$count))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
+            clip: rect(random(150)+px, 9000px, random(150)+px, random(10)+px)
     }
   }
+}
+@keyframes glitchTextNoiseMono_text_medium{
+
+ 
+
+  84%{ transform: rotateX(0deg) skewX(0deg); }
+  85%{  transform: rotateX(10deg) skewX(50deg); }
+  86%{ transform: rotateX(0deg) skewX(0deg); }
 }
 
 @keyframes glitchTextNoiseMono_before_hard{
@@ -52,6 +64,9 @@
     }
   }
 }
+
+
+
 
 //==========text glitchTextNoise========
 
